@@ -1,0 +1,54 @@
+.sidebar {
+  position: absolute;
+  display: none;
+  background: #fff;
+  padding: 30px;
+  width: 500px;
+  height: 92vh;
+  margin-top: 660px;
+  margin-left: 1495px;
+  z-index: 1;
+}
+
+.header-sidebar {
+  display: flex;
+}
+
+.fechar-sidebar {
+  background: #fff;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-left: 189px;
+}
+
+.titulo-sidebar {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.footer-sidebar {
+  justify-content: center;
+}
+
+.linha {
+  border-bottom: 1px solid #000;
+  width: 430px;
+}
+
+.texto-footer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a8a6a6;
+}
+.btn-sidebar {
+  justify-items: center;
+  background: #21ba44;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 18px 100px;
+}

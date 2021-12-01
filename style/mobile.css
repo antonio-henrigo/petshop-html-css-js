@@ -1,0 +1,144 @@
+@media (max-width: 415px) {
+  nav {
+    height: 14vh;
+  }
+
+  .logo img {
+    margin-left: 30px;
+    width: 60%;
+    height: 60%;
+  }
+
+  .banner {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 10vh;
+    right: 0px;
+    width: 100vw;
+    height: 92vh;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .titulo h2 {
+    font-size: 3vh;
+    align-items: center;
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+
+  .titulo span {
+    font-size: 2vh;
+    align-items: center;
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  .section-one img,
+  .section-two img,
+  .section-three img {
+    width: 90%;
+    margin: 5px 0px 5px 12px;
+  }
+
+  .produtos-info {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+
+  .produtos-info img {
+    margin: 0px;
+    padding: 0;
+  }
+
+  .side-banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .produtos-wrap {
+    display: grid;
+    position: relative;
+    contain: content;
+    cursor: pointer;
+  }
+
+  .produtos-wrap img {
+    display: grid;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .produto-column {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .produtos-wrap.hover .wish-cart {
+    transform: translateX(-55px);
+  }
+
+  .wish-cart {
+    position: absolute;
+    top: 230px;
+    right: -40px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .wish-cart a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    background: #fdfdfd;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  .wish-cart img {
+    margin: 0px !important;
+  }
+
+  .footer-banner img {
+    margin: 20px 0px 20px 0px;
+    max-width: 350px;
+  }
+
+  .border-bottom img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+
+  .menu-container {
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+  }
+
+  .footer-brands {
+    margin-top: 30px;
+  }
+
+  .footer-brands img {
+    max-width: 350px;
+    margin-bottom: 50px;
+  }
+}
